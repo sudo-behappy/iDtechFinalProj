@@ -151,3 +151,11 @@ Received Import Request.
 Start importing Assets/Scenes/Leo.unity using Guid(906003b441028384c9bd448f885c5fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5fe78d3f1844a17acafdb09b5ef7de') in 0.020072 seconds 
   Import took 0.025095 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 645.594814 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.012695 seconds 
+  Import took 0.018658 seconds .
+
