@@ -1,102 +1,101 @@
 Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.12f1c1 (5887f62ce680) revision 5801974'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home China; OS build 19042.1110; Version 2009; 64bit' Language: 'zh' Physical Memory: 16291 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Users/zacharycoughlin/Desktop/Unity folder/2020.3.13f1/Unity.app/Contents/MacOS/Unity
+D:\game_dev\Unity\Editor\2020.3.12f1c1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj
+D:/game_dev/Unity/Projects/iDtechFinalProj/iDtechFinalProj
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50934
-Successfully changed project path to: /Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj
-/Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj
+65228
+Successfully changed project path to: D:/game_dev/Unity/Projects/iDtechFinalProj/iDtechFinalProj
+D:/game_dev/Unity/Projects/iDtechFinalProj/iDtechFinalProj
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.13f1 (71691879b7f5)
-[Subsystems] Discovering subsystems at path /Users/zacharycoughlin/Desktop/Unity folder/2020.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj/Assets
+Initialize engine version: 2020.3.12f1c1 (5887f62ce680)
+[Subsystems] Discovering subsystems at path D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/game_dev/Unity/Projects/iDtechFinalProj/iDtechFinalProj/Assets
 GfxDevice: creating device client; threaded=0
-2021-08-13 13:53:10.019 Unity[2219:62322] iMac preferred device: AMD Radeon Pro 570X (high power)
-2021-08-13 13:53:10.019 Unity[2219:62322] Metal devices available: 1
-2021-08-13 13:53:10.019 Unity[2219:62322] 0: AMD Radeon Pro 570X (high power)
-2021-08-13 13:53:10.020 Unity[2219:62322] Using device AMD Radeon Pro 570X (high power)
-Initializing Metal device caps: AMD Radeon Pro 570X
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.7168
 Initialize mono
-Mono path[0] = '/Users/zacharycoughlin/Desktop/Unity folder/2020.3.13f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Users/zacharycoughlin/Desktop/Unity folder/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Users/zacharycoughlin/Desktop/Unity folder/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56219
+Mono path[0] = 'D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Users/zacharycoughlin/Desktop/Unity folder/2020.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Users/zacharycoughlin/Desktop/Unity folder/2020.3.13f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000742 seconds.
+Register platform support module: D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002187 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 26.64 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 28.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.008 seconds
+- Completed reload, in  1.034 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003167 seconds.
+Registered in 0.002882 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.603 seconds
+- Completed reload, in  1.108 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Users/zacharycoughlin/Desktop/Unity folder/2020.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.5 MB.
-System memory in use after: 140.6 MB.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1830.
-Total: 2.342707 ms (FindLiveObjects: 0.196622 ms CreateObjectMapping: 0.056769 ms MarkObjects: 1.952116 ms  DeleteObjects: 0.136125 ms)
+Total: 2.850900 ms (FindLiveObjects: 0.195700 ms CreateObjectMapping: 0.071800 ms MarkObjects: 2.517400 ms  DeleteObjects: 0.064800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea36d7eed56f254b985096c491ff71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea36d7eed56f254b985096c491ff71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b40d7c893f80817693a6d095cb07bf') in 0.027670 seconds 
-  Import took 0.030975 seconds .
+  path: Assets/Scenes/Scripts
+  artifactKey: Guid(8ed980acb0aa8144e8b76c901b0e9a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scripts using Guid(8ed980acb0aa8144e8b76c901b0e9a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad6a09886c20e5f6425d4d1110a2eea') in 0.007452 seconds 
+  Import took 0.010712 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.699089 seconds.
-  path: Assets/Scenes/zachary.unity
-  artifactKey: Guid(141ca13821a0646aabbb8df721cc620e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary.unity using Guid(141ca13821a0646aabbb8df721cc620e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4f9510c855bc82321f4a2f64d32460') in 0.016497 seconds 
-  Import took 0.018540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 645.594814 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.012695 seconds 
-  Import took 0.018658 seconds .
+  Time since last request: 3.321192 seconds.
+  path: Assets/Scenes/Art
+  artifactKey: Guid(952efbe75f49b7f40b0856773f7e54d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Art using Guid(952efbe75f49b7f40b0856773f7e54d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c33f0b7d247b4c8724d31e49b000df') in 0.007484 seconds 
+  Import took 0.010354 seconds .
 
