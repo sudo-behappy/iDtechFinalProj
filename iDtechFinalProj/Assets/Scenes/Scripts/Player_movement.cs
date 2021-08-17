@@ -78,11 +78,11 @@ public class Player_movement : MonoBehaviour
         {
             case 0:
                 //normal standing
-                if ()
+                if (canStandUp)
                 {
                     ts.localScale = new Vector3(1, 1.5f, 1);
-                    break;
                 }
+                break;
             case 1:
                 //crouch
                 ts.localScale = new Vector3(1, 1, 1);

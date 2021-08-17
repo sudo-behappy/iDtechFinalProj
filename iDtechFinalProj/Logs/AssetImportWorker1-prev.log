@@ -591,3 +591,4 @@ Received Import Request.
 Start importing Assets/Scenes/Scripts/Player_movement.cs using Guid(fb6f2177643c5e249b3805533c251036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6753d1a96c11e340f21989380826a158') in 0.009267 seconds 
   Import took 0.016210 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
