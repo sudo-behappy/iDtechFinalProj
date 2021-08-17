@@ -68,6 +68,7 @@ public class Player_movement : MonoBehaviour
         //motion += transform.forward * left * linearSpeed;
         motion.y = rb.velocity.y;
         rb.velocity = motion;
+        
     }
 
     void stateUpdate()
@@ -93,7 +94,9 @@ public class Player_movement : MonoBehaviour
                 ts.localEulerAngles = new Vector3(90, ts.localEulerAngles.y, 0);
                 break;
         }
-
-        
+    }
+    public int stateGetter()
+    {
+        return state % 3;
     }
 }
