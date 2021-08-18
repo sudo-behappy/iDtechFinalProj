@@ -10,20 +10,25 @@ public class Player_movement : MonoBehaviour
     float vRotation = 0;
 
     //speed
-    public float linearSpeed = 5f;
+    public float linearSpeed = 15f;
     public float angularSpeed = 20f;
+
+    //movement
+    public bool canStandUp = true;
+    public bool canProne = true;
+
+    //possible states
+    public GameObject[] bodyList;
 
     //playerState
     int state = 0;
     string[] stateList = { "Stand", "Crouch", "Prone" };
-    bool canStandUp = true;
+    bool stateFlag = false;
 
     //sensitivity
     public float lookAngle = 50f;
 
-    public Transform camera;
-    public Animator Animator;
-
+    Camera[] cameraList = new Camera[3];
 
 
     Rigidbody rb;
@@ -34,31 +39,53 @@ public class Player_movement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         ts = GetComponent<Transform>();
+        state = 0;
+        for(int i = 1; i < bodyList.Length; i++)
+        {
+            bodyList[i].SetActive(false);
+            cameraList[i] = bodyList[i].GetComponent<Camera>();
+            cameraList[i].enabled = false;
+        }
+        cameraList[0].enabled = true;
         rotation = transform.rotation.y;
-        vRotation = camera.rotation.x;
+        vRotation = cameraList[state % 3].GetComponent<Transform>().rotation.x;
     }
 
     // Update is called once per frame
     void Update()
     {
-        canStandUp = GetComponentInChildren<headCheck>().canStandUp;
+
+        if (stateFlag)
+        {
+            rotation = transform.rotation.y;
+            vRotation = cameraList[state % 3].GetComponent<Transform>().rotation.x;
+            bodyList[state % 3].SetActive(false);
+            bodyList[(state + 1) % 3].SetActive(true);
+            cameraList[state % 3].enabled = false;
+            cameraList[(state + 1) % 3].enabled = true;
+        }
         forward = Input.GetAxis("Vertical");
 
         rotation += Input.GetAxis("Mouse X") * angularSpeed;
         vRotation -= Input.GetAxis("Mouse Y") * angularSpeed;
-
         vRotation = Mathf.Clamp(vRotation, -lookAngle, lookAngle);
 
         transform.rotation = Quaternion.Euler(0, rotation, 0);
-        camera.rotation = Quaternion.Euler(vRotation, rotation, 0);
+        cameraList[state % 3].GetComponent<Transform>().rotation = Quaternion.Euler(vRotation, rotation, 0);
 
-        Animator.SetFloat("forward", forward);
-        Animator.SetFloat("turn", Input.GetAxis("Mouse X"));
+        //Animator.SetFloat("forward", forward);
+        //Animator.SetFloat("turn", Input.GetAxis("Mouse X"));
+        
+        //the first time start from 0
 
         if (Input.GetKeyDown(KeyCode.C))
         {
-            state += 1;
+            //next state
+            state++;
+            stateFlag = true;
         }
+
+        print(stateChangeChecker());
     }
 
     void FixedUpdate()
@@ -71,32 +98,26 @@ public class Player_movement : MonoBehaviour
         
     }
 
-    void stateUpdate()
+
+
+    //state getter
+    public string stateGetter()
     {
-        state = 1;
-        print(stateList[state]);
-        switch (state % 3)
-        {
-            case 0:
-                //normal standing
-                if (canStandUp)
-                {
-                    ts.localScale = new Vector3(1, 1.5f, 1);
-                }
-                break;
-            case 1:
-                //crouch
-                ts.localScale = new Vector3(1, 1, 1);
-                break;
-            case 2:
-                //prone
-                ts.localScale = new Vector3(1, 1.5f, 1);
-                ts.localEulerAngles = new Vector3(90, ts.localEulerAngles.y, 0);
-                break;
-        }
+        return (state % 3).ToString();
     }
-    public int stateGetter()
+
+    //climb object getter
+    public GameObject climbGetter()
     {
-        return state % 3;
+        return null;
+    }
+
+    bool stateChangeChecker()
+    {
+        Collider collider = bodyList[state % 3].GetComponent<CapsuleCollider>();
+        collider.isTrigger = true;
+        bool ans = collider.gameObject.GetComponent<bodyCollider>().ifCanChange;
+        collider.isTrigger = false;
+        return ans;
     }
 }
