@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - 'LabDoor '
+=======
+  - UI_stats
+>>>>>>> 67637aaae57c90719349aecb35d313589c210793
   layers:
   - Default
   - TransparentFX

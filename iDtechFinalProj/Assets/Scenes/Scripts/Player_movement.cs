@@ -68,6 +68,7 @@ public class Player_movement : MonoBehaviour
         //motion += transform.forward * left * linearSpeed;
         motion.y = rb.velocity.y;
         rb.velocity = motion;
+        
     }
 
     void stateUpdate()
@@ -78,11 +79,11 @@ public class Player_movement : MonoBehaviour
         {
             case 0:
                 //normal standing
-                if ()
+                if (canStandUp)
                 {
                     ts.localScale = new Vector3(1, 1.5f, 1);
-                    break;
                 }
+                break;
             case 1:
                 //crouch
                 ts.localScale = new Vector3(1, 1, 1);
@@ -93,7 +94,9 @@ public class Player_movement : MonoBehaviour
                 ts.localEulerAngles = new Vector3(90, ts.localEulerAngles.y, 0);
                 break;
         }
-
-        
+    }
+    public int stateGetter()
+    {
+        return state % 3;
     }
 }
