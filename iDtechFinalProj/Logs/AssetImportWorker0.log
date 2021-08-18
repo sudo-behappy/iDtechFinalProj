@@ -1,190 +1,71 @@
 Using pre-set license
-Built from '2020.3/china_unity/release' branch; Version is '2020.3.12f1c1 (5887f62ce680) revision 5801974'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home China; OS build 19042.1110; Version 2009; 64bit' Language: 'zh' Physical Memory: 16291 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\game_dev\Unity\Editor\2020.3.12f1c1\Editor\Unity.exe
+/Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/game_dev/Unity/Projects/iDtechFinalProj/iDtechFinalProj
+/Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< Updated upstream
-63711
-Successfully changed project path to: D:/game_dev/Unity/Projects/iDtechFinalProj/iDtechFinalProj
-D:/game_dev/Unity/Projects/iDtechFinalProj/iDtechFinalProj
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 178.99 ms, found 2 plugins.
-=======
-49802
+52731
 Successfully changed project path to: /Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj
 /Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.30 ms, found 2 plugins.
->>>>>>> Stashed changes
+Refreshing native plugins compatible for Editor in 44.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.12f1c1 (5887f62ce680)
-[Subsystems] Discovering subsystems at path D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/game_dev/Unity/Projects/iDtechFinalProj/iDtechFinalProj/Assets
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path /Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj/Assets
 GfxDevice: creating device client; threaded=0
-<<<<<<< Updated upstream
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
-    Vendor:   
-    VRAM:     5980 MB
-    Driver:   30.0.14.7168
-Initialize mono
-Mono path[0] = 'D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/Managed'
-Mono path[1] = 'D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: D:/game_dev/Unity/Editor/2020.3.12f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.492098 seconds.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 43.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.818 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.861783 seconds.
-Begin MonoManager ReloadAssembly
-=======
-2021-08-17 12:52:16.196 Unity[1332:52120] iMac preferred device: AMD Radeon Pro 570X (high power)
-2021-08-17 12:52:16.196 Unity[1332:52120] Metal devices available: 1
-2021-08-17 12:52:16.196 Unity[1332:52120] 0: AMD Radeon Pro 570X (high power)
-2021-08-17 12:52:16.197 Unity[1332:52120] Using device AMD Radeon Pro 570X (high power)
+2021-08-17 17:49:48.877 Unity[2876:186730] iMac preferred device: AMD Radeon Pro 570X (high power)
+2021-08-17 17:49:48.877 Unity[2876:186730] Metal devices available: 1
+2021-08-17 17:49:48.878 Unity[2876:186730] 0: AMD Radeon Pro 570X (high power)
+2021-08-17 17:49:48.878 Unity[2876:186730] Using device AMD Radeon Pro 570X (high power)
 Initializing Metal device caps: AMD Radeon Pro 570X
 Initialize mono
 Mono path[0] = '/Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.029509 seconds.
+Registered in 0.000656 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 27.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.534 seconds
+- Completed reload, in  1.598 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.049799 seconds.
+Registered in 0.062918 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.583 seconds
+- Completed reload, in  1.427 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.8 MB.
-System memory in use after: 135.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1831.
-Total: 1.954504 ms (FindLiveObjects: 0.153532 ms CreateObjectMapping: 0.040537 ms MarkObjects: 1.684313 ms  DeleteObjects: 0.075001 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/zachary folder/Materials/121777083-dirty-wall-background-with-white-tiles.mat
-  artifactKey: Guid(9b6afa2bc1c7343c4819be9749bfdf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/Materials/121777083-dirty-wall-background-with-white-tiles.mat using Guid(9b6afa2bc1c7343c4819be9749bfdf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b367a5c48a7d09b92cc0eab4726d2107') in 1.377500 seconds 
-  Import took 1.380052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Scenes/zachary folder/Materials/121777083-dirty-wall-background-with-white-tiles 1.mat
-  artifactKey: Guid(3e5536fe56c4b495799471310723246d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/Materials/121777083-dirty-wall-background-with-white-tiles 1.mat using Guid(3e5536fe56c4b495799471310723246d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87db514c2a5f7852e8d84424e651aa28') in 0.018587 seconds 
-  Import took 0.020935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Scenes/zachary folder/Materials/images.mat
-  artifactKey: Guid(9523297f645d74e42b60dd700413f1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/Materials/images.mat using Guid(9523297f645d74e42b60dd700413f1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b514be502ecac8241b906c023d6fecd') in 0.011746 seconds 
-  Import took 0.014206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Scenes/zachary folder/Materials/ac1379cc-16fa-407d-aa92-0b2b74a4e92b.mat
-  artifactKey: Guid(a413c07cde32c4879a7b8b825cb5b204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/Materials/ac1379cc-16fa-407d-aa92-0b2b74a4e92b.mat using Guid(a413c07cde32c4879a7b8b825cb5b204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9f0b782dc1f18762177803b75287af') in 0.012455 seconds 
-  Import took 0.015020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Scenes/zachary folder/Materials/TX_Furn_Chair03_s1.mat
-  artifactKey: Guid(66a279ff61816460a84594aa2c5b15f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/Materials/TX_Furn_Chair03_s1.mat using Guid(66a279ff61816460a84594aa2c5b15f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aced66c9d4916400b9b963d346f4c531') in 0.013735 seconds 
-  Import took 0.030349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Scenes/zachary folder/Materials/ABY_LabWorktable_Diffuse.mat
-  artifactKey: Guid(852190092ef504f3ca473984b6ee616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/Materials/ABY_LabWorktable_Diffuse.mat using Guid(852190092ef504f3ca473984b6ee616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1162b130e6f6a528bce53ed897f8ec22') in 0.013483 seconds 
-  Import took 0.023087 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.030512 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.423 seconds
-Platform modules already initialized, skipping
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.1 MB.
-System memory in use after: 144.2 MB.
+Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.0 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1873.
-Total: 1.897094 ms (FindLiveObjects: 0.144847 ms CreateObjectMapping: 0.042802 ms MarkObjects: 1.693940 ms  DeleteObjects: 0.014772 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 1.861544 ms (FindLiveObjects: 0.147337 ms CreateObjectMapping: 0.042977 ms MarkObjects: 1.609995 ms  DeleteObjects: 0.060545 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -196,4 +77,226 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
->>>>>>> Stashed changes
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Unknown-5.jpeg
+  artifactKey: Guid(c2cd3ed483a804d0d91473f84740e9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Unknown-5.jpeg using Guid(c2cd3ed483a804d0d91473f84740e9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387af79cca97b4fda3ab1fc6c515d9e9') in 0.979439 seconds 
+  Import took 0.999341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.048853 seconds.
+  path: Assets/Scenes/Materials/Unknown-5.mat
+  artifactKey: Guid(90a6d8f56c1ce445692f59aac8836abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Materials/Unknown-5.mat using Guid(90a6d8f56c1ce445692f59aac8836abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff57770f2f6df7b9d234472e74ce20f0') in 0.913787 seconds 
+  Import took 0.926812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Scenes/Art/Texture/新建材质.mat
+  artifactKey: Guid(de0e8d03415a31d46a12fd2993da1343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Art/Texture/新建材质.mat using Guid(de0e8d03415a31d46a12fd2993da1343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa587e64b913a89aabccba2a26ba335') in 0.008130 seconds 
+  Import took 0.010732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.037015 seconds.
+  path: Assets/Scenes/zachary folder/Hub_whiteboard.obj
+  artifactKey: Guid(4b04e578c386942799c285463f890ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/Hub_whiteboard.obj using Guid(4b04e578c386942799c285463f890ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f391f40127882ff2fefbc54f60622f9') in 0.500381 seconds 
+  Import took 0.511776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Scenes/zachary folder/hub_whiteboard.png
+  artifactKey: Guid(cbad023af54e441dd98f8ec407edae36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/hub_whiteboard.png using Guid(cbad023af54e441dd98f8ec407edae36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb53d6ecebd80554f85a66ca2c36ec92') in 0.775738 seconds 
+  Import took 0.777761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.975462 seconds.
+  path: Assets/Scenes/zachary folder/Hub_whiteboard 1.obj
+  artifactKey: Guid(b47beb3456b6345d082553f0ffb98d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/Hub_whiteboard 1.obj using Guid(b47beb3456b6345d082553f0ffb98d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9f2487fbd31df050e7260a8323ef1e') in 0.017939 seconds 
+  Import took 0.020096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001324 seconds.
+  path: Assets/Scenes/zachary folder/Hub_whiteboard 1.obj
+  artifactKey: Guid(b47beb3456b6345d082553f0ffb98d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/Hub_whiteboard 1.obj using Guid(b47beb3456b6345d082553f0ffb98d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9f2487fbd31df050e7260a8323ef1e') in 0.017759 seconds 
+  Import took 0.019775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.992385 seconds.
+  path: Assets/Scenes/zachary folder/Lfwcn.png
+  artifactKey: Guid(8d175868915824fac97e3c9c6abbd047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/Lfwcn.png using Guid(8d175868915824fac97e3c9c6abbd047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc16a1ab2a6235fd55aaf5a301467fe') in 0.009985 seconds 
+  Import took 0.012654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001409 seconds.
+  path: Assets/Scenes/zachary folder/Lfwcn.png
+  artifactKey: Guid(8d175868915824fac97e3c9c6abbd047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/Lfwcn.png using Guid(8d175868915824fac97e3c9c6abbd047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc16a1ab2a6235fd55aaf5a301467fe') in 0.005256 seconds 
+  Import took 0.007640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 178.861345 seconds.
+  path: Assets/Scenes/zachary folder/maxresdefault-1.jpg
+  artifactKey: Guid(d2685cb8d2220467b83f53cf48bffe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/maxresdefault-1.jpg using Guid(d2685cb8d2220467b83f53cf48bffe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2409f7bb3a40ec5ee3217d846b5ecfd') in 0.985764 seconds 
+  Import took 0.988917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.514768 seconds.
+  path: Assets/Scenes/zachary folder/Materials/hub_whiteboard.mat
+  artifactKey: Guid(edaa3177a3f1e413a9a520678026ab20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/Materials/hub_whiteboard.mat using Guid(edaa3177a3f1e413a9a520678026ab20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feacee76fe1c26aec97bf219c21de3a1') in 0.014192 seconds 
+  Import took 0.017105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.051440 seconds.
+  path: Assets/Scenes/zachary folder/Materials/S.mat
+  artifactKey: Guid(cfdfab0a231e44bf3bcdab283f67513f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/Materials/S.mat using Guid(cfdfab0a231e44bf3bcdab283f67513f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a94f6f83dd681bec72deabae8c101b') in 0.010180 seconds 
+  Import took 0.012724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.475122 seconds.
+  path: Assets/Scenes/zachary folder/Materials/Lfwcn.mat
+  artifactKey: Guid(860d5ac068f66459c8b8dc077a869821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/Materials/Lfwcn.mat using Guid(860d5ac068f66459c8b8dc077a869821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac35ad2c659bc22feaf3d466fd4cbcdb') in 0.011687 seconds 
+  Import took 0.014426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Scenes/zachary folder/Materials/S.mat
+  artifactKey: Guid(cfdfab0a231e44bf3bcdab283f67513f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/Materials/S.mat using Guid(cfdfab0a231e44bf3bcdab283f67513f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd89bc48966090814099d2c988f4cf11') in 0.025965 seconds 
+  Import took 0.028547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1669.092871 seconds.
+  path: Assets/Scenes/C# scripts
+  artifactKey: Guid(e6bec975a209e4257aaf072a26c28df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/C# scripts using Guid(e6bec975a209e4257aaf072a26c28df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fadbff7a6b0f60cb79156dbd63b321') in 0.001703 seconds 
+  Import took 0.004001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.466363 seconds.
+  path: Assets/Scenes/zachary folder/C# scripts/Door.cs
+  artifactKey: Guid(4422e217d7fe04e378f6fb136e5308c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/C# scripts/Door.cs using Guid(4422e217d7fe04e378f6fb136e5308c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956ee88444ba24d2d26e76728fe78e66') in 0.363181 seconds 
+  Import took 0.372122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.711689 seconds.
+  path: Assets/Scenes/zachary folder/C# scripts/Door.cs
+  artifactKey: Guid(4422e217d7fe04e378f6fb136e5308c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/C# scripts/Door.cs using Guid(4422e217d7fe04e378f6fb136e5308c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e67087568a3081d3e3fb5287f4970e') in 0.002112 seconds 
+  Import took 0.023748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 536.593251 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.317566 seconds 
+  Import took 0.320349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.967983 seconds.
+  path: Assets/Scenes/zachary folder/C# scripts/animation
+  artifactKey: Guid(22149029882da44d6b654e9fa1f9c43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/C# scripts/animation using Guid(22149029882da44d6b654e9fa1f9c43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0048507116e66d7731491743ca66a8e7') in 0.001609 seconds 
+  Import took 0.010377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 545.925857 seconds.
+  path: Assets/Scenes/zachary folder/C# scripts/animationlol
+  artifactKey: Guid(22149029882da44d6b654e9fa1f9c43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/C# scripts/animationlol using Guid(22149029882da44d6b654e9fa1f9c43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388f5f01bed1dc48533fe8b3357d620d') in 0.001840 seconds 
+  Import took 0.004235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 434.989996 seconds.
+  path: Assets/Scenes/zachary folder/C# scripts/open.anim
+  artifactKey: Guid(a89b7bdc1d01c4359a2638f22137afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/C# scripts/open.anim using Guid(a89b7bdc1d01c4359a2638f22137afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e9dfedb4756e6f81e32ede44a9c40e') in 0.154809 seconds 
+  Import took 0.157708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 525.988532 seconds.
+  path: Assets/Scenes/zachary folder/C# scripts/open 1.anim
+  artifactKey: Guid(04747b4ccee4742af9ea8a78dfb85b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/C# scripts/open 1.anim using Guid(04747b4ccee4742af9ea8a78dfb85b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1085872c8ad7ad3db7382bb31fd4366a') in 0.004192 seconds 
+  Import took 0.006806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 291.286301 seconds.
+  path: Assets/Scenes/zachary folder/C# scripts/Close.anim
+  artifactKey: Guid(04747b4ccee4742af9ea8a78dfb85b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/C# scripts/Close.anim using Guid(04747b4ccee4742af9ea8a78dfb85b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b582255541a27dd3eaf2d6b480683e') in 0.003475 seconds 
+  Import took 0.006136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 429.790702 seconds.
+  path: Assets/Scenes/zachary folder/C# scripts/open.anim
+  artifactKey: Guid(a89b7bdc1d01c4359a2638f22137afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/C# scripts/open.anim using Guid(a89b7bdc1d01c4359a2638f22137afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76757336f0a1d88b6ea55a7d3529f810') in 0.005428 seconds 
+  Import took 0.007557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1880.530670 seconds.
+  path: Assets/Scenes/zachary folder/C# scripts/Cube (16).controller
+  artifactKey: Guid(c700e4046bb174f0f99db66f95836ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/C# scripts/Cube (16).controller using Guid(c700e4046bb174f0f99db66f95836ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c6af343a7baff7a0c6bb831b874c5a') in 0.140810 seconds 
+  Import took 0.156010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1049.300694 seconds.
+  path: Assets/Scenes/zachary folder/C# scripts/NewBehaviourScript.cs
+  artifactKey: Guid(84d78ea9f3c704c7cb064f3c7b0e5490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/C# scripts/NewBehaviourScript.cs using Guid(84d78ea9f3c704c7cb064f3c7b0e5490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67aad6a4d1e7c8632cc8e9d91d1102f9') in 0.004546 seconds 
+  Import took 0.007302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.376108 seconds.
+  path: Assets/Scenes/zachary folder/C# scripts/openthedoor.cs
+  artifactKey: Guid(84d78ea9f3c704c7cb064f3c7b0e5490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/C# scripts/openthedoor.cs using Guid(84d78ea9f3c704c7cb064f3c7b0e5490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29c2f62cc1b854234325a25e0cdee59') in 0.004420 seconds 
+  Import took 0.006677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1039.138891 seconds.
+  path: Assets/Scenes/zachary folder/C# scripts/Cube (16).controller
+  artifactKey: Guid(c700e4046bb174f0f99db66f95836ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/C# scripts/Cube (16).controller using Guid(c700e4046bb174f0f99db66f95836ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a1bbc59f09a9567cc1fb0d4e2315d3') in 0.004832 seconds 
+  Import took 0.026122 seconds .
+
