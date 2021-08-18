@@ -23,7 +23,7 @@ public class UI : MonoBehaviour
 
     public void debugDisplay()
     {
-        texts[0] = player.stateGetter
+        texts[0] = player.stateGetter();
     }
 
     public void reset()
