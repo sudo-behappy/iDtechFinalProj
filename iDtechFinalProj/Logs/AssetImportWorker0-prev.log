@@ -12,60 +12,60 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55681
+56558
 Successfully changed project path to: /Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj
 /Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path /Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj/Assets
 GfxDevice: creating device client; threaded=0
-2021-08-18 12:57:28.068 Unity[1962:43736] iMac preferred device: AMD Radeon Pro 570X (high power)
-2021-08-18 12:57:28.068 Unity[1962:43736] Metal devices available: 1
-2021-08-18 12:57:28.068 Unity[1962:43736] 0: AMD Radeon Pro 570X (high power)
-2021-08-18 12:57:28.069 Unity[1962:43736] Using device AMD Radeon Pro 570X (high power)
+2021-08-18 14:04:16.669 Unity[2417:73285] iMac preferred device: AMD Radeon Pro 570X (high power)
+2021-08-18 14:04:16.669 Unity[2417:73285] Metal devices available: 1
+2021-08-18 14:04:16.669 Unity[2417:73285] 0: AMD Radeon Pro 570X (high power)
+2021-08-18 14:04:16.670 Unity[2417:73285] Using device AMD Radeon Pro 570X (high power)
 Initializing Metal device caps: AMD Radeon Pro 570X
 Initialize mono
 Mono path[0] = '/Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56962
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56417
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001124 seconds.
+Registered in 0.000738 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 27.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.772 seconds
+- Completed reload, in  1.392 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.190174 seconds.
+Registered in 0.001582 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.709 seconds
+- Completed reload, in  1.248 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.5 MB.
-System memory in use after: 138.6 MB.
+Unloading 1415 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.8 MB.
+System memory in use after: 138.8 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1848.
-Total: 1.982942 ms (FindLiveObjects: 0.134934 ms CreateObjectMapping: 0.035539 ms MarkObjects: 1.744974 ms  DeleteObjects: 0.066472 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1849.
+Total: 1.835045 ms (FindLiveObjects: 0.161874 ms CreateObjectMapping: 0.042783 ms MarkObjects: 1.568137 ms  DeleteObjects: 0.061418 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -79,142 +79,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/zachary folder/animation
-  artifactKey: Guid(1b526d01e0755446da17b874ec2f485e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/animation using Guid(1b526d01e0755446da17b874ec2f485e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144d4c7466ff2b7c797e89b097d99783') in 0.007997 seconds 
-  Import took 0.023336 seconds .
+  path: Assets/Scenes/zachary folder/Hub_whiteboard.obj
+  artifactKey: Guid(c025c4b07b56545b4be598392e00b919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/Hub_whiteboard.obj using Guid(c025c4b07b56545b4be598392e00b919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3a0998c1afdec87b83f3f8269d6201') in 2.558010 seconds 
+  Import took 2.560046 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.284335 seconds.
-  path: Assets/Scenes/zachary folder/C# script
-  artifactKey: Guid(e065c414db03d49d2828fbdd5c9317e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/C# script using Guid(e065c414db03d49d2828fbdd5c9317e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf6a67537cd8d5012c214038778012f') in 0.027836 seconds 
-  Import took 0.030151 seconds .
+  Time since last request: 0.000241 seconds.
+  path: Assets/Scenes/zachary folder/hub_whiteboard.png
+  artifactKey: Guid(6ad70219832ad4c64be5573ace81a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/hub_whiteboard.png using Guid(6ad70219832ad4c64be5573ace81a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b02347641077051318376ba6b56af2b') in 2.588309 seconds 
+  Import took 2.590655 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 82.069309 seconds.
-  path: Assets/Scenes/zachary folder/C# script/open.anim
-  artifactKey: Guid(26600e0f2c25849b087759713cc85c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/C# script/open.anim using Guid(26600e0f2c25849b087759713cc85c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df1e6cc61d2bcbfa15f55ebb58839e3') in 2.494484 seconds 
-  Import took 2.771559 seconds .
+  Time since last request: 135.459112 seconds.
+  path: Assets/Scenes/zachary folder/Lfwcn.png
+  artifactKey: Guid(41cbfac389c0f47ff82861874237799b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/Lfwcn.png using Guid(41cbfac389c0f47ff82861874237799b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1394f7f8ceec7a5a0fa1146aa49f94c3') in 0.010097 seconds 
+  Import took 0.012276 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.936550 seconds.
-  path: Assets/Scenes/zachary folder/C# script/open 1.anim
-  artifactKey: Guid(ea947f4363b344fa2a2739a10c61d6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/C# script/open 1.anim using Guid(ea947f4363b344fa2a2739a10c61d6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0979cca9f91519e7f8d791ff888bdb9') in 0.005936 seconds 
-  Import took 0.149593 seconds .
+  Time since last request: 55.602005 seconds.
+  path: Assets/Scenes/zachary folder/maxresdefault-1.jpg
+  artifactKey: Guid(059569c238bcd498383539af6e2caa7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/maxresdefault-1.jpg using Guid(059569c238bcd498383539af6e2caa7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b9d6c2ff2355ec4de8b70d84af1d56') in 1.890228 seconds 
+  Import took 1.894045 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.046498 seconds.
-  path: Assets/Scenes/zachary folder/C# script/close.anim
-  artifactKey: Guid(ea947f4363b344fa2a2739a10c61d6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/C# script/close.anim using Guid(ea947f4363b344fa2a2739a10c61d6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b829c841c29160e6ad7e36c87d6e624') in 0.005063 seconds 
-  Import took 0.015128 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.194804 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.165 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.5 MB.
-System memory in use after: 142.6 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1851.
-Total: 1.942186 ms (FindLiveObjects: 0.123196 ms CreateObjectMapping: 0.033586 ms MarkObjects: 1.766904 ms  DeleteObjects: 0.017516 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 234.871512 seconds.
-  path: Assets/doorcode.cs
-  artifactKey: Guid(76f0907714d484137933b1e69d562207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/doorcode.cs using Guid(76f0907714d484137933b1e69d562207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5beaff67665a56d855620fe91a2aecee') in 1.521888 seconds 
-  Import took 1.684968 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.243394 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.612 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.0 MB.
-System memory in use after: 147.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1853.
-Total: 1.740710 ms (FindLiveObjects: 0.133549 ms CreateObjectMapping: 0.039240 ms MarkObjects: 1.553322 ms  DeleteObjects: 0.013720 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 294.117564 seconds.
-  path: Assets/Scenes/zachary folder/C# script/Cube (16).controller
-  artifactKey: Guid(50845350353a14abeb1a2793acefff82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/C# script/Cube (16).controller using Guid(50845350353a14abeb1a2793acefff82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c0cb8f1a7c09ef1c26f659adfbc441') in 1.327329 seconds 
-  Import took 1.477898 seconds .
+  Time since last request: 240.784348 seconds.
+  path: Assets/Scenes/zachary folder/Military Police Assault Robot.obj
+  artifactKey: Guid(dcd3074c59e2e48e783e5b7d77d3dbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/Military Police Assault Robot.obj using Guid(dcd3074c59e2e48e783e5b7d77d3dbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952dd7e35e3893967db329e56593b59c') in 0.151780 seconds 
+  Import took 0.263254 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 190.648077 seconds.
-  path: Assets/Scenes/zachary folder/C# script/Cube (16).controller
-  artifactKey: Guid(50845350353a14abeb1a2793acefff82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/C# script/Cube (16).controller using Guid(50845350353a14abeb1a2793acefff82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290e71baaef9f624bffa0434a6aa34da') in 0.005637 seconds 
-  Import took 0.007972 seconds .
+  Time since last request: 258.429331 seconds.
+  path: Assets/Scenes/zachary folder/New Material 1.mat
+  artifactKey: Guid(28f925e8d2f2c4bc5ae8097f719c5339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/New Material 1.mat using Guid(28f925e8d2f2c4bc5ae8097f719c5339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c89bfc2fcf1762ed026c4b112ed9d4') in 3.387675 seconds 
+  Import took 3.581941 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 120.104608 seconds.
-  path: Assets/Scenes/zachary folder/C# script/open.anim
-  artifactKey: Guid(26600e0f2c25849b087759713cc85c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/C# script/open.anim using Guid(26600e0f2c25849b087759713cc85c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f130760c075b383a26136180262ce10f') in 0.009669 seconds 
-  Import took 0.011854 seconds .
+  Time since last request: 157.553227 seconds.
+  path: Assets/Scenes/zachary folder/New Material 1.mat
+  artifactKey: Guid(28f925e8d2f2c4bc5ae8097f719c5339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/zachary folder/New Material 1.mat using Guid(28f925e8d2f2c4bc5ae8097f719c5339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09e8ea5203e0cdb42d94270589fa24a') in 1.187144 seconds 
+  Import took 1.189821 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000549 seconds.
-  path: Assets/Scenes/zachary folder/C# script/open.anim
-  artifactKey: Guid(26600e0f2c25849b087759713cc85c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/C# script/open.anim using Guid(26600e0f2c25849b087759713cc85c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f130760c075b383a26136180262ce10f') in 0.004344 seconds 
-  Import took 0.006472 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
