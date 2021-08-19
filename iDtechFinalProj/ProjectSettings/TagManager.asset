@@ -6,6 +6,7 @@ TagManager:
   tags:
   - UI_stats
   - Obstacle
+  - player
   layers:
   - Default
   - TransparentFX
