@@ -12,60 +12,60 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58703
+52265
 Successfully changed project path to: /Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj
 /Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path /Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/zacharycoughlin/Desktop/gamesandfun/Screen Shot 2021-07-28 at 5.55.22 PM.png/iDtechFinalProj/Assets
 GfxDevice: creating device client; threaded=0
-2021-08-18 15:57:17.137 Unity[3090:130148] iMac preferred device: AMD Radeon Pro 570X (high power)
-2021-08-18 15:57:17.137 Unity[3090:130148] Metal devices available: 1
-2021-08-18 15:57:17.137 Unity[3090:130148] 0: AMD Radeon Pro 570X (high power)
-2021-08-18 15:57:17.137 Unity[3090:130148] Using device AMD Radeon Pro 570X (high power)
+2021-08-19 12:59:02.030 Unity[1593:132489] iMac preferred device: AMD Radeon Pro 570X (high power)
+2021-08-19 12:59:02.030 Unity[1593:132489] Metal devices available: 1
+2021-08-19 12:59:02.030 Unity[1593:132489] 0: AMD Radeon Pro 570X (high power)
+2021-08-19 12:59:02.030 Unity[1593:132489] Using device AMD Radeon Pro 570X (high power)
 Initializing Metal device caps: AMD Radeon Pro 570X
 Initialize mono
 Mono path[0] = '/Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56090
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56593
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.339051 seconds.
+Registered in 0.000660 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 27.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.385 seconds
+- Completed reload, in  1.394 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.466280 seconds.
+Registered in 0.001926 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.139 seconds
+- Completed reload, in  1.259 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Users/zacharycoughlin/Desktop/Unity folder/2020.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1415 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.7 MB.
-System memory in use after: 138.8 MB.
+Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.8 MB.
+System memory in use after: 138.9 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1849.
-Total: 1.950440 ms (FindLiveObjects: 0.140864 ms CreateObjectMapping: 0.039218 ms MarkObjects: 1.706356 ms  DeleteObjects: 0.063285 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 1.952597 ms (FindLiveObjects: 0.159723 ms CreateObjectMapping: 0.051455 ms MarkObjects: 1.677130 ms  DeleteObjects: 0.063345 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -79,277 +79,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/zachary folder/Announcer_Speaker.obj
-  artifactKey: Guid(430b8a27608144715ac08ef674838833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/Announcer_Speaker.obj using Guid(430b8a27608144715ac08ef674838833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf35d3bb0de65b0fc4a9e898e6208ab') in 1.223237 seconds 
-  Import took 1.237557 seconds .
+  path: Assets/Scenes/blaster.blende file/blast3rr.blend
+  artifactKey: Guid(c5e5316820f3a4689b7a11e0f8291579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/blaster.blende file/blast3rr.blend using Guid(c5e5316820f3a4689b7a11e0f8291579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7ad2fd88db20cf9732ea38c2d162fd') in 0.606784 seconds 
+  Import took 0.609098 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 81.031877 seconds.
-  path: Assets/Scenes/zachary folder/announcer_speaker.png
-  artifactKey: Guid(5331004e9d5ec4d168ea53bcb9fe0079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/announcer_speaker.png using Guid(5331004e9d5ec4d168ea53bcb9fe0079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f4de914c7c83302a5b17aa5021aa26') in 2.060524 seconds 
-  Import took 2.063766 seconds .
+  Time since last request: 258.246240 seconds.
+  path: Assets/Scenes/blaster.blende file/blast3rr.blend
+  artifactKey: Guid(c5e5316820f3a4689b7a11e0f8291579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/blaster.blende file/blast3rr.blend using Guid(c5e5316820f3a4689b7a11e0f8291579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a2cddd8b8f47017b3b7ae9484beac0') in 0.094517 seconds 
+  Import took 0.097617 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.631486 seconds.
-  path: Assets/Scenes/zachary folder/announcer_speaker_grill.png
-  artifactKey: Guid(b351dbf02490046208c667148c77826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/announcer_speaker_grill.png using Guid(b351dbf02490046208c667148c77826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92eefb3c296e0e53bed982f52b92022b') in 0.014395 seconds 
-  Import took 0.038912 seconds .
+  Time since last request: 363.813865 seconds.
+  path: Assets/Scenes/blaster.blende file/blast3rr copy 2.blend
+  artifactKey: Guid(88d2ec7691d32439fb8716a983a28ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/blaster.blende file/blast3rr copy 2.blend using Guid(88d2ec7691d32439fb8716a983a28ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f183d65be8bef8ce3397c4b528479c') in 0.082112 seconds 
+  Import took 0.084838 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.018358 seconds.
-  path: Assets/Scenes/zachary folder/announcer_speaker_grill.png
-  artifactKey: Guid(b351dbf02490046208c667148c77826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/announcer_speaker_grill.png using Guid(b351dbf02490046208c667148c77826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92eefb3c296e0e53bed982f52b92022b') in 0.009655 seconds 
-  Import took 0.011963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1083.217583 seconds.
-  path: Assets/Scenes/zachary folder/Obj_CameraTitleMenu.dae
-  artifactKey: Guid(ddbcc1bcf42144adaa7e15b3e49b619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/Obj_CameraTitleMenu.dae using Guid(ddbcc1bcf42144adaa7e15b3e49b619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6387e6785b2ad7e728a13abd37b1b76f') in 1.698981 seconds 
-  Import took 1.713581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.386271 seconds.
-  path: Assets/Scenes/zachary folder/cameratitlemenu_alb.png
-  artifactKey: Guid(be759b295a51a4cb5ae437584c5aefc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/cameratitlemenu_alb.png using Guid(be759b295a51a4cb5ae437584c5aefc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b81513d974feda1a7476b223cac5b8') in 0.007407 seconds 
-  Import took 0.261452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Scenes/zachary folder/Obj_CameraTitleMenu.dae
-  artifactKey: Guid(ddbcc1bcf42144adaa7e15b3e49b619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/Obj_CameraTitleMenu.dae using Guid(ddbcc1bcf42144adaa7e15b3e49b619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85201eb6e617f4534c70d7a5a88c0747') in 0.027611 seconds 
-  Import took 0.155510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 181.293432 seconds.
-  path: Assets/camerafollowsplayer.cs
-  artifactKey: Guid(3faa73c4d777c46e285c31509e94ad5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/camerafollowsplayer.cs using Guid(3faa73c4d777c46e285c31509e94ad5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51b5e14eb3954b0cf9a09541f10a8be') in 0.843525 seconds 
-  Import took 0.862708 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.046042 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.680 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.6 MB.
-System memory in use after: 172.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1899.
-Total: 1.890976 ms (FindLiveObjects: 0.148139 ms CreateObjectMapping: 0.044049 ms MarkObjects: 1.683862 ms  DeleteObjects: 0.014227 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 332.710870 seconds.
-  path: Assets/camerafollowsplayer.cs
-  artifactKey: Guid(3faa73c4d777c46e285c31509e94ad5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/camerafollowsplayer.cs using Guid(3faa73c4d777c46e285c31509e94ad5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e000a04689a59838e97304ec5e515c0') in 0.006845 seconds 
-  Import took 0.230619 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.343037 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.178 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.8 MB.
-System memory in use after: 173.0 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1901.
-Total: 1.886195 ms (FindLiveObjects: 0.156416 ms CreateObjectMapping: 0.040533 ms MarkObjects: 1.657740 ms  DeleteObjects: 0.030791 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 134.004204 seconds.
-  path: Assets/Obj_CameraTitleMenu Variant.prefab
-  artifactKey: Guid(aba011695007d46a2805c38fd5532f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Obj_CameraTitleMenu Variant.prefab using Guid(aba011695007d46a2805c38fd5532f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8606efc8a4e06c954c5582b5e3da9cad') in 2.300770 seconds 
-  Import took 2.304857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1096.203390 seconds.
-  path: Assets/Scenes/zachary folder/Chinese Food.obj
-  artifactKey: Guid(dd9a7e3005e9445d39d5b8ef6de2de6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/Chinese Food.obj using Guid(dd9a7e3005e9445d39d5b8ef6de2de6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa152bc26c64f9ad6983e72e70bf912') in 0.050777 seconds 
-  Import took 0.234831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.687127 seconds.
-  path: Assets/Scenes/zachary folder/chinese-food_dif.png
-  artifactKey: Guid(a1b3ad80b72ad41dc91169dbf856541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/chinese-food_dif.png using Guid(a1b3ad80b72ad41dc91169dbf856541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fa210e021924b20586c6b68aa33132') in 0.013765 seconds 
-  Import took 0.016233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004803 seconds.
-  path: Assets/Scenes/zachary folder/chinese-food_dif.png
-  artifactKey: Guid(a1b3ad80b72ad41dc91169dbf856541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/chinese-food_dif.png using Guid(a1b3ad80b72ad41dc91169dbf856541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fa210e021924b20586c6b68aa33132') in 0.006600 seconds 
-  Import took 0.009029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1113.721883 seconds.
-  path: Assets/Scenes/zachary folder/Screen Shot 2021-08-18 at 5.03.51 PM.png
-  artifactKey: Guid(cf870824bd52842f7a596368fa626cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/Screen Shot 2021-08-18 at 5.03.51 PM.png using Guid(cf870824bd52842f7a596368fa626cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff7e39fee53293804696a8bbb48ef59') in 0.012626 seconds 
-  Import took 0.290097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2317.443840 seconds.
-  path: Assets/Scenes/zachary folder/jonathan-benainous-art-deco-close-up-shot-door-006.jpg
-  artifactKey: Guid(4d351809dc59a48a58ef28ec304f751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/jonathan-benainous-art-deco-close-up-shot-door-006.jpg using Guid(4d351809dc59a48a58ef28ec304f751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6111ac5838d7b977a86cb036302ec91') in 0.788280 seconds 
-  Import took 0.801960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 740.173782 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78a27303d38c5bc73b55289faa0930d') in 0.011932 seconds 
-  Import took 0.014479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 939.208168 seconds.
-  path: Assets/Scenes/Scripts/UI.cs
-  artifactKey: Guid(2eea8cf8cc9376643add921935acf9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/UI.cs using Guid(2eea8cf8cc9376643add921935acf9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cf9b9a7258062c2921626960c3dc76') in 0.003824 seconds 
-  Import took 0.006193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.392688 seconds.
-  path: Assets/Scenes/Scripts/Player_movement.cs
-  artifactKey: Guid(fb6f2177643c5e249b3805533c251036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/Player_movement.cs using Guid(fb6f2177643c5e249b3805533c251036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8611779f66031395933ffbfee24efac') in 0.003217 seconds 
-  Import took 0.005673 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020806 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.156 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.7 MB.
-System memory in use after: 181.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1904.
-Total: 1.751537 ms (FindLiveObjects: 0.128235 ms CreateObjectMapping: 0.035410 ms MarkObjects: 1.558205 ms  DeleteObjects: 0.029037 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.252647 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.126 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.9 MB.
-System memory in use after: 182.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1906.
-Total: 1.720502 ms (FindLiveObjects: 0.141303 ms CreateObjectMapping: 0.040244 ms MarkObjects: 1.525121 ms  DeleteObjects: 0.012927 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3943.093186 seconds.
-  path: Assets/Scenes/zachary folder/door.prefab
-  artifactKey: Guid(94c977e8e4b394ba6816295dd023c014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/zachary folder/door.prefab using Guid(94c977e8e4b394ba6816295dd023c014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59cb3cba1ce6c5e69c017917bd46518') in 0.071164 seconds 
-  Import took 0.268271 seconds .
+  Time since last request: 4.650404 seconds.
+  path: Assets/Scenes/blaster.blende file/blast3rr.blend
+  artifactKey: Guid(c5e5316820f3a4689b7a11e0f8291579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/blaster.blende file/blast3rr.blend using Guid(c5e5316820f3a4689b7a11e0f8291579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479115d08e1c1a7ea0f0396d730ab8cf') in 0.086107 seconds 
+  Import took 0.089047 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
