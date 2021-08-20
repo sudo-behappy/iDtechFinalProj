@@ -13,7 +13,7 @@ public class enemy : MonoBehaviour
     public float turningRad = 2;               //when the patrol point is inside this range, go to the next one
     public float shootingRad = 15;             //when the enemy is this far from the player, start shooting 
     public float safeRad = 5;                 //the min distence between the player and the enemy
-    public float fanDeg = 45;                  //the enemy vision fanshape
+    public float fanDeg = 45f;                  //the enemy vision fanshape
     public Transform patrolList;                //the patroling route, stored as turning points
     public Transform player;                    //the player the enemy is finding
     
@@ -22,14 +22,16 @@ public class enemy : MonoBehaviour
     Renderer renderer;
     NavMeshAgent agent;
     ArrayList patrolNode = new ArrayList();     //operatable patrol node list
-    Transform closest;                          //the closest patrol point to the enemy
+
 
     int currentNode = 0;                        //index of current approaching node
     int state = 0;                              //current state    
+    int health = 3;
 
+    float cameraOffset;                         //the looking around degree
+
+    bool ifInvunerable = false;
     bool spotted = false;
-    bool patroling = true;
-    bool shooting = false;
 
     // Start is called before the first frame update
     void Start()
@@ -48,7 +50,6 @@ public class enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print("State" + state.ToString());
         StateUpdate(state);
 
         //finding player
@@ -64,11 +65,10 @@ public class enemy : MonoBehaviour
         //find the angle
         float angle = Vector3.Angle(localForwardVect, pointingVect);
         print(Vector3.Distance(player.position, transform.position));
-        if (Vector3.Distance(player.position, transform.position) <= sightRad && angle <= fanDeg)
+        if (Vector3.Distance(player.position, transform.position) <= sightRad && angle <= fanDeg + cameraOffset)
         {
             //raycasting
             Physics.Raycast(rayOrigion, pointingVect, out hit, sightRad);
-            print(hit.transform.gameObject.name);
             GameObject obj = hit.transform.gameObject;
             
             //if the ray hits the player
@@ -94,7 +94,62 @@ public class enemy : MonoBehaviour
             state = 0;
         }
     }
+    //update the script
+    void StateUpdate(int state)
+    {
+        switch (state)
+        {
+            case 0:
+                //patrolling
+                if (spotted)
+                {
+                    SetTargetNode(findClosestPoint());
+                }
+                spotted = false;
+                agent.speed = 3.5f;
+                agent.angularSpeed = 120;
 
+
+                if (Vector3.Distance(target.position, transform.position) <= turningRad)
+                {
+
+                    SetTargetNode(++currentNode);
+                }
+
+                break;
+            case 1:
+                agent.speed = 7;
+                agent.angularSpeed = 300;
+                //walk to player
+                spotted = true;
+                if (Vector3.Distance(player.position, transform.position) <= safeRad)
+                {
+                    SetTargetNode(transform);
+                    transform.LookAt(player);
+                }
+                else
+                {
+                    SetTargetNode(player);
+                }
+                break;
+            case 2:
+                //fire at the player
+                spotted = true;
+                agent.speed = 3.5f;
+                agent.angularSpeed = 300;
+                shoot();
+                if (Vector3.Distance(player.position, transform.position) <= safeRad)
+                {
+                    SetTargetNode(transform);
+                }
+                else
+                {
+                    transform.LookAt(player);
+                    SetTargetNode(player);
+                }
+                break;
+        }
+    }
     //set the patrol node the enemy will approach(fin)
     void SetTargetNode(int node)
     {
@@ -125,64 +180,39 @@ public class enemy : MonoBehaviour
         return ans;
     }
 
-    void StateUpdate(int state)
+    public void damage()
     {
-        switch (state)
+        if (!ifInvunerable)
         {
-            case 0:
-                //patrolling
-                patroling = true;
-                shooting = false;
-                if (spotted)
-                {
-                    SetTargetNode(findClosestPoint());
-                }
-                spotted = false;
-                agent.speed = 3.5f;
-                agent.angularSpeed = 120;
-                
-                if (Vector3.Distance(target.position, transform.position) <= turningRad)
-                {
-                    
-                    SetTargetNode(++currentNode);
-                }
-
-                break;
-            case 1:
-                agent.speed = 7;
-                agent.angularSpeed = 240;
-                //walk to player
-                patroling = false;
-                shooting = false;
-                spotted = true;
-                if(Vector3.Distance(player.position, transform.position) <= safeRad)
-                {
-                    SetTargetNode(transform);
-                    transform.LookAt(player);
-                }
-                else
-                {
-                    SetTargetNode(player);
-                }
-                break;
-            case 2:
-                //fire at the player
-                patroling = false;
-                shooting = true;
-                spotted = true;
-                agent.speed = 3.5f;
-                agent.angularSpeed = 300;
-                if (Vector3.Distance(player.position, transform.position) <= safeRad)
-                {
-                    SetTargetNode(transform);
-                }
-                else
-                {
-                    transform.LookAt(player);
-                    SetTargetNode(player);
-                }
-                break;
-                //TODO: shoot at the player
+            health--;
+            ifInvunerable = true;
+            StartCoroutine(Flash());
+        }
+        else
+        {
+            StopCoroutine(Flash());
         }
     }
+
+    IEnumerator Flash()
+    {
+        Color c = renderer.material.color;
+        for (int i = 0; i < 20; i++)
+        {
+            c.a = (float)(10 - i % 5) / 10;
+            renderer.material.color = c;
+            yield return new WaitForSeconds(0.01f);
+        }
+        ifInvunerable = false;
+        c.a = 1;
+        renderer.material.color = c;
+    }
+    
+
+    void shoot()
+    {
+        player.GetComponent<Player_movement>().damage();
+    }
+
+
 }

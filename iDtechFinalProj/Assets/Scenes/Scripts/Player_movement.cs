@@ -30,6 +30,10 @@ public class Player_movement : MonoBehaviour
 
     public Transform camera;
 
+    int health = 5;
+    bool ifInvunerable = true;
+    float invunerableTimer;
+    public const float INVUNERABLE_TIME = 5;
 
     Rigidbody rb;
 
@@ -50,13 +54,26 @@ public class Player_movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (ifInvunerable)
+        {
+            invunerableTimer += Time.deltaTime;
+            if(invunerableTimer >= INVUNERABLE_TIME)
+            {
+                ifInvunerable = false;
+                invunerableTimer = 0;
+            }
+        }
+        print(health);
+        print(ifInvunerable);
+        if(health <= 0)
+        {
+            print("DIE");
+        }
 
         if (stateFlag)
         {
             bodyList[state % 3].SetActive(false);
             bodyList[(state + 1) % 3].SetActive(true);
-            //cameraList[state % 3].enabled = false;
-            //cameraList[(state + 1) % 3].enabled = true;
         }
         forward = Input.GetAxis("Vertical");
 
@@ -66,10 +83,6 @@ public class Player_movement : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(0, rotation, 0);
         camera.GetComponent<Transform>().rotation = Quaternion.Euler(vRotation, rotation, 0);
-
-        //Animator.SetFloat("forward", forward);
-        //Animator.SetFloat("turn", Input.GetAxis("Mouse X"));
-        
         //the first time start from 0
 
         if (Input.GetKeyDown(KeyCode.C) && stateChangeChecker())
@@ -97,10 +110,20 @@ public class Player_movement : MonoBehaviour
         return (state % 3).ToString();
     }
 
-    //climb object getter
-    public GameObject climbGetter()
+
+
+    public void damage()
     {
-        return null;
+        if (!ifInvunerable)
+        {
+            print("----------------------------");
+            print("Hit");
+            print("Health: " + health.ToString());
+            print("----------------------------");
+            health--;
+            ifInvunerable = true;
+        }
+        
     }
 
     bool stateChangeChecker()
