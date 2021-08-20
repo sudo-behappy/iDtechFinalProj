@@ -89,7 +89,7 @@ public class Player_movement : MonoBehaviour
         
     }
 
-
+    
 
     //state getter
     public string stateGetter()
