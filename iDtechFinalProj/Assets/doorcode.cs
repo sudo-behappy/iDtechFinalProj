@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class doorcode : MonoBehaviour
 {
-    private Animator ani;
+    public Animator ani;
 
 
     // Start is called before the first frame update
     void Start()
     {
 
-        ani = GetComponent<Animator>();
+       
     }
 
     void OnTriggerEnter(Collider other)
@@ -23,7 +23,15 @@ public class doorcode : MonoBehaviour
         }
 
     }
+    void OnTriggerExit(Collider other)
+    {
 
+        if (other.tag == "player")
+        {
+            ani.SetBool("letmeopen", false);
+        }
+
+    }
 
 
     // Update is called once per frame
